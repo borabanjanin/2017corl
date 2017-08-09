@@ -1,0 +1,232 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aizerman and Gantmacher(1958)]{Aizerman1958-ih}
+M.~A. Aizerman and F.~R. Gantmacher.
+\newblock Determination of stability by linear approximation of a periodic
+  solution of a system of differential equations with discontinuous
+  {Right--Hand} sides.
+\newblock \emph{The Quarterly Journal of Mechanics and Applied Mathematics},
+  11\penalty0 (4):\penalty0 385--398, 1958.
+\newblock ISSN 0033-5614.
+\newblock \doi{10.1093/qjmam/11.4.385}.
+
+\bibitem[Alexander(1984)]{Alexander1984-ld}
+R.~M. Alexander.
+\newblock The gaits of bipedal and quadrupedal animals.
+\newblock \emph{The International journal of robotics research}, 3\penalty0
+  (2):\penalty0 49--59, 1984.
+\newblock ISSN 0278-3649.
+\newblock \doi{10.1177/027836498400300205}.
+
+\bibitem[Ballard(2000)]{Ballard2000-ui}
+P.~Ballard.
+\newblock The dynamics of discrete mechanical systems with perfect unilateral
+  constraints.
+\newblock \emph{Archive for rational mechanics and analysis}, 154\penalty0
+  (3):\penalty0 199--274, 2000.
+\newblock ISSN 0003-9527.
+\newblock \doi{10.1007/s002050000105}.
+
+\bibitem[Baxter and Bartlett(2001)]{Baxter2001-ua}
+J.~Baxter and P.~L. Bartlett.
+\newblock Infinite-horizon policy-gradient estimation.
+\newblock \emph{The journal of artificial intelligence research}, 15:\penalty0
+  319--350, 2001.
+\newblock ISSN 1076-9757.
+
+\bibitem[Brockman et~al.(2016)Brockman, Cheung, Pettersson, Schneider,
+  Schulman, Tang, and Zaremba]{Brockman2016-wq}
+G.~Brockman, V.~Cheung, L.~Pettersson, J.~Schneider, J.~Schulman, J.~Tang, and
+  W.~Zaremba.
+\newblock {OpenAI} gym.
+\newblock 5~June 2016.
+
+\bibitem[Burden et~al.(2015)Burden, Gonzalez, Vasudevan, Bajcsy, and
+  Sastry]{Burden2015-ip}
+S.~A. Burden, H.~Gonzalez, R.~Vasudevan, R.~Bajcsy, and S.~S. Sastry.
+\newblock {Metrization and Simulation of Controlled Hybrid Systems}.
+\newblock \emph{IEEE transactions on automatic control}, 60\penalty0
+  (9):\penalty0 2307--2320, 2015.
+\newblock ISSN 0018-9286.
+\newblock \doi{10.1109/TAC.2015.2404231}.
+
+\bibitem[Chaney(1988)]{Chaney1988-zq}
+R.~W. Chaney.
+\newblock {Second-Order} sufficient conditions in nonsmooth optimization.
+\newblock \emph{Mathematics of Operations Research}, 13\penalty0 (4):\penalty0
+  660--673, 1~Nov. 1988.
+\newblock ISSN 0364-765X.
+\newblock \doi{10.1287/moor.13.4.660}.
+
+\bibitem[Doya(2000)]{Doya2000-gk}
+K.~Doya.
+\newblock Reinforcement learning in continuous time and space.
+\newblock \emph{Neural computation}, 12\penalty0 (1):\penalty0 219--245, Jan.
+  2000.
+\newblock ISSN 0899-7667.
+
+\bibitem[Erez and Todorov(2012)]{Erez2012-yo}
+T.~Erez and E.~Todorov.
+\newblock Trajectory optimization for domains with contacts using inverse
+  dynamics.
+\newblock In \emph{{IEEE} International Conference on Intelligent Robots and
+  Systems}, pages 4914--4919, Oct. 2012.
+\newblock \doi{10.1109/IROS.2012.6386181}.
+
+\bibitem[H{\"u}rm{\"u}zl{\"u} and Marghitu(1994)]{Hurmuzlu1994-wk}
+Y.~H{\"u}rm{\"u}zl{\"u} and D.~B. Marghitu.
+\newblock Rigid body collisions of planar kinematic chains with multiple
+  contact points.
+\newblock \emph{The International journal of robotics research}, 13\penalty0
+  (1):\penalty0 82--92, 1994.
+\newblock ISSN 0278-3649.
+\newblock \doi{10.1177/027836499401300106}.
+
+\bibitem[Johnson et~al.(2016)Johnson, Burden, and Koditschek]{Johnson2016-nh}
+A.~M. Johnson, S.~A. Burden, and D.~E. Koditschek.
+\newblock A hybrid systems model for simple manipulation and self-manipulation
+  systems.
+\newblock \emph{The International journal of robotics research}, 35\penalty0
+  (11):\penalty0 1354--1392, 1~Sept. 2016.
+\newblock ISSN 0278-3649, 1741-3176.
+\newblock \doi{10.1177/0278364916639380}.
+
+\bibitem[Kakade(2001)]{Kakade2001-az}
+S.~Kakade.
+\newblock A natural policy gradient.
+\newblock \emph{Advances in neural information processing systems},
+  14:\penalty0 1531--1538, 2001.
+\newblock ISSN 1049-5258.
+
+\bibitem[Konda and Tsitsiklis(2003)]{Konda2003-av}
+V.~R. Konda and J.~N. Tsitsiklis.
+\newblock {OnActor-Critic} algorithms.
+\newblock \emph{SIAM Journal on Control and Optimization}, 42\penalty0
+  (4):\penalty0 1143--1166, Jan. 2003.
+\newblock ISSN 0363-0129, 1095-7138.
+\newblock \doi{10.1137/S0363012901385691}.
+
+\bibitem[Kumar et~al.(2016)Kumar, Todorov, and Levine]{Kumar2016-nt}
+V.~Kumar, E.~Todorov, and S.~Levine.
+\newblock Optimal control with learned local models: Application to dexterous
+  manipulation.
+\newblock In \emph{{IEEE} International Conference on Robotics and Automation
+  ({ICRA})}, pages 378--383, May 2016.
+\newblock \doi{10.1109/ICRA.2016.7487156}.
+
+\bibitem[Kuntz and Scholtes(1994)]{Kuntz1994-qf}
+L.~Kuntz and S.~Scholtes.
+\newblock Structural analysis of nonsmooth mappings, inverse functions, and
+  metric projections.
+\newblock \emph{Journal of mathematical analysis and applications},
+  188\penalty0 (2):\penalty0 346--386, 1994.
+\newblock ISSN 0022-247X.
+\newblock \doi{10.1006/jmaa.1994.1431}.
+
+\bibitem[Lee(2012)]{Lee2012-mb}
+J.~M. Lee.
+\newblock \emph{Introduction to smooth manifolds}.
+\newblock Graduate texts in mathematics. Springer, New York ; London, 2nd ed.
+  edition, 2012.
+\newblock ISBN 9781441999825.
+
+\bibitem[Levine and Abbeel(2014)]{Levine2014-im}
+S.~Levine and P.~Abbeel.
+\newblock Learning neural network policies with guided policy search under
+  unknown dynamics.
+\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, and K.~Q.
+  Weinberger, editors, \emph{Advances in Neural Information Processing Systems
+  27}, pages 1071--1079. Curran Associates, Inc., 2014.
+
+\bibitem[Levine et~al.(2016)Levine, Finn, Darrell, and Abbeel]{Levine2016-lw}
+S.~Levine, C.~Finn, T.~Darrell, and P.~Abbeel.
+\newblock End--to--end training of deep visuomotor policies.
+\newblock \emph{Journal of machine learning research: JMLR}, 17\penalty0
+  (1):\penalty0 1334--1373, 2016.
+\newblock ISSN 1532-4435.
+
+\bibitem[Mordatch et~al.(2012)Mordatch, Todorov, and
+  Popovi{\'c}]{Mordatch2012-ar}
+I.~Mordatch, E.~Todorov, and Z.~Popovi{\'c}.
+\newblock Discovery of complex behaviors through contact-invariant
+  optimization.
+\newblock \emph{ACM transactions on graphics}, 31\penalty0 (4):\penalty0
+  43:1--43:8, July 2012.
+\newblock ISSN 0730-0301.
+\newblock \doi{10.1145/2185520.2185539}.
+
+\bibitem[Mordatch et~al.(2015)Mordatch, Lowrey, and Todorov]{Mordatch2015-jb}
+I.~Mordatch, K.~Lowrey, and E.~Todorov.
+\newblock {Ensemble-CIO}: Full-body dynamic motion planning that transfers to
+  physical humanoids.
+\newblock In \emph{Intelligent Robots and Systems ({IROS)}, 2015 {IEEE/RSJ}
+  International Conference on}, pages 5307--5314, 2015.
+\newblock \doi{10.1109/IROS.2015.7354126}.
+
+\bibitem[Pace and Burden(2017{\natexlab{a}})]{Pace2017-ph}
+A.~M. Pace and S.~A. Burden.
+\newblock Decoupled limbs yield differentiable trajectory outcomes through
+  intermittent contact in locomotion and manipulation.
+\newblock In \emph{Proceedings of the {IEEE} International Conference on
+  Robotics and Automation ({ICRA})}, 2017{\natexlab{a}}.
+
+\bibitem[Pace and Burden(2017{\natexlab{b}})]{Pace2017-tt}
+A.~M. Pace and S.~A. Burden.
+\newblock Piecewise--differentiable trajectory outcomes in mechanical systems
+  subject to unilateral constraints.
+\newblock In \emph{Proceedings of Hybrid Systems: Computation and Control
+  ({HSCC})}, 2017{\natexlab{b}}.
+
+\bibitem[Polak(1997)]{Polak1997-xd}
+E.~Polak.
+\newblock \emph{Optimization: algorithms and consistent approximations}.
+\newblock Springer--Verlag, 1997.
+
+\bibitem[Remy et~al.(2010)Remy, Buffinton, and Siegwart]{Remy2010-vo}
+C.~D. Remy, K.~Buffinton, and R.~Siegwart.
+\newblock Stability analysis of passive dynamic walking of quadrupeds.
+\newblock \emph{The International journal of robotics research}, 29\penalty0
+  (9):\penalty0 1173--1185, 2010.
+\newblock ISSN 0278-3649.
+\newblock \doi{10.1177/0278364909344635}.
+
+\bibitem[Robinson(1991)]{Robinson1991-xg}
+S.~M. Robinson.
+\newblock An {Implicit-Function} theorem for a class of nonsmooth functions.
+\newblock \emph{Mathematics of Operations Research}, 16\penalty0 (2):\penalty0
+  292--309, 1991.
+\newblock ISSN 0364-765X.
+
+\bibitem[Scholtes(2012)]{Scholtes2012-la}
+S.~Scholtes.
+\newblock \emph{Introduction to piecewise differentiable equations}.
+\newblock Springer--Verlag, 2012.
+\newblock \doi{10.1007/978-1-4614-4340-7}.
+
+\bibitem[Schulman et~al.(2015)Schulman, Levine, Moritz, Jordan, and
+  Abbeel]{Schulman2015-kr}
+J.~Schulman, S.~Levine, P.~Moritz, M.~I. Jordan, and P.~Abbeel.
+\newblock Trust region policy optimization.
+\newblock \emph{CoRR, abs/1502. 05477}, 2015.
+
+\bibitem[Silver et~al.(2014)Silver, Lever, Heess, Degris, Wierstra, and
+  Riedmiller]{Silver2014-lj}
+D.~Silver, G.~Lever, N.~Heess, T.~Degris, D.~Wierstra, and M.~Riedmiller.
+\newblock {Deterministic Policy Gradient Algorithms}.
+\newblock In \emph{{ICML}}, Beijing, China, June 2014.
+
+\bibitem[Sutton et~al.(2000)Sutton, McAllester, Singh, and
+  Mansour]{Sutton2000-ap}
+R.~S. Sutton, D.~McAllester, S.~Singh, and Y.~Mansour.
+\newblock Policy gradient methods for reinforcement learning with function
+  approximation.
+\newblock \emph{Advances in neural information processing systems},
+  12:\penalty0 1057--1063, 2000.
+\newblock ISSN 1049-5258.
+
+\end{thebibliography}

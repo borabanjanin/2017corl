@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%% macros %%%%%%%%%%%%%%%%%%
+
+% refer to figures, sections in uniform way
+\newcommand{\figref}[1]{{Figure~\ref{fig:#1}}}
+\newcommand{\secref}[1]{{Section~\ref{sec:#1}}}
+\newcommand{\propref}[1]{{Property~\ref{prop:#1}}}
+\newcommand{\implref}[1]{{Implication~\ref{prop:#1}}}
+\newcommand{\thmref}[1]{{Theorem~\ref{thm:#1}}}
+\newcommand{\chref}[2]{\cite[Chapter~{#1}]{#2}}
+
+\newcommand{\see}[1]{(see~#1)}
+\newcommand{\cf}[1]{(cf.~#1)}
+\newcommand{\etal}{\emph{et al.}}
+\newcommand{\adhoc}{\emph{ad hoc.}}
+\newcommand{\apriori}{\emph{a priori}}
+
+\newcommand{\lft}{1}%{\text{left}}
+\newcommand{\rght}{2}%{\text{right}}
+\newcommand{\torque}{12}%{\text{torque}}
+\newcommand{\touchdown}{\text{touchdown}}%{\text{torque}}
+\newcommand{\liftoff}{\text{liftoff}}%{\text{torque}}
+
+\newcommand{\Tstate}{v}
+\newcommand{\Tinp}{w}
+\newcommand{\param}{p}
+\newcommand{\state}{x}
+\newcommand{\run}{r}
+\newcommand{\inp}{u}
+\newcommand{\optstate}{\xi}
+\newcommand{\optinp}{\mu}
+\newcommand{\Param}{\e{P}}
+\newcommand{\State}{\e{X}}
+\newcommand{\Run}{\R}
+\newcommand{\Inp}{\e{U}}
+\newcommand{\ssState}{X}
+\newcommand{\ssInp}{U}
+\newcommand{\cost}{c}
+\newcommand{\Ell}{\e{L}}
+\newcommand{\val}{\nu}
+\newcommand{\policy}{\pi}
+%\newcommand{\policy}{\mu}
+\newcommand{\flow}{\phi}
+\newcommand{\D}{D}
+\newcommand{\C}{C}
+\newcommand{\T}{T}
+\newcommand{\I}{I}
+\newcommand{\PC}{PC}
+
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\newcommand{\paren}[1]{\left( #1 \right)}
+\newcommand{\brak}[1]{\left[ #1 \right]}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\norm}[1]{\left\| #1 \right\|}
+\newcommand{\ip}[2]{\langle #1,#2 \rangle}
+\newcommand{\pw}[1]{\left\{\begin{array}{ll} #1 \end{array}\right. }
+\newcommand{\mat}[2]{\left[\begin{array}{#1} #2 \end{array}\right]}
+\newcommand{\bd}{\partial}
+\newcommand{\st}{\mid}
+\newcommand{\td}[1]{\widetilde{#1}}
+\newcommand{\ha}[1]{\widehat{#1}}
+\newcommand{\eqn}[1]{\begin{equation*}\begin{aligned} #1 \end{aligned}\end{equation*}}
+\newcommand{\eqnn}[1]{\begin{equation}\begin{aligned} #1 \end{aligned}\end{equation}}
+\newcommand{\sm}{\setminus}
+\newcommand{\conv}{\ast}
+\newcommand{\into}{\rightarrow}
+\newcommand{\goesto}{\rightarrow}
+\newcommand{\goestoinp}{\xrightarrow{p}} 
+\newcommand{\partialto}{\not\rightarrow}
+\newcommand{\downto}{\downarrow}
+\newcommand{\inc}{\hookrightarrow}
+
+% inverse modeling 
+\newcommand{\Mdl}{M}
+\newcommand{\mdl}{m}
+\newcommand{\out}{y}
+\newcommand{\outd}{\des{\out}}
+\newcommand{\Out}{Y}
+\newcommand{\Nout}{n_{\out}}
+\newcommand{\noise}{\veps}
+\newcommand{\delay}{\tau}
+\newcommand{\est}[1]{\td{#1}}
+\newcommand{\inv}[1]{{#1}^{-1}}
+\newcommand{\pinv}[1]{{#1}^{\dagger}}
+\newcommand{\opt}[1]{{#1}^*}
+\newcommand{\des}[1]{{#1}_d}
+\newcommand{\xform}[1]{\ha{#1}}
+\newcommand{\Xform}{\e{F}}
+\newcommand{\nonlinear}{f}
+
+\newcommand{\diffeo}{\Phi}
+\newcommand{\Lie}{L}
+\newcommand{\nhood}{X}
+\newcommand{\mfold}{Z}
+\newcommand{\err}{\varepsilon}
+\newcommand{\contC}{C}
+\newcommand{\contc}{c}
+
+\newcommand{\Sn}{S_n}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Hb}{\mathbb{H}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\tr}{\top}
+\newcommand{\TP}{\dagger}
+\newcommand{\m}{\mathcal}
+\newcommand{\e}{\mathscr}
+\newcommand{\eps}{\epsilon}
+\newcommand{\vphi}{\varphi}
+\newcommand{\veps}{\varepsilon}
+\newcommand{\ones}{\mathds{1}}
+\newcommand{\id}{\operatorname{id}}
+\newcommand{\suth}{\ \text{s.t.}\ }
+\newcommand{\rk}{\operatorname{rank}}
+\newcommand{\spn}{\operatorname{span}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Int}[1]{\operatorname{Int}#1}
+\newcommand{\pset}[1]{2^{#1}}
+\newcommand{\cl}[1]{\operatorname{cl}\paren{#1}}
+\newcommand{\sgn}{\operatorname{sign}}
+\newcommand{\spec}{\operatorname{spec}}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{claim}{Claim}
+\newtheorem{assumption}{Assumption}
+\newtheorem{remark}{Remark}
+\newtheorem{property}{Property}
+\newtheorem{implication}{Implication}
+\newtheorem{example}{Example}
+
+%\newcommand{property}[3]{\noindent\textbf{Property~#1 (#2).} #3}
+%\newcommand{prop}[1]{\noindent\textbf{Property.} #3}
+
+\newcommand{\defn}[1]{\begin{definition} #1 \end{definition}}
+\newcommand{\defna}[2]{\begin{definition}[#1] #2 \end{definition}}
+\newcommand{\rem}[1]{\begin{remark} #1 \end{remark}}
+\newcommand{\remna}[2]{\begin{remark}[#1] #2 \end{remark}}
+\newcommand{\assump}[1]{\begin{assumption} #1 \end{assumption}}
+\newcommand{\assumpn}[2]{\begin{assumption}[#1] #2 \end{assumption}}
+\newcommand{\lem}[1]{\begin{lemma} #1 \end{lemma}}
+\newcommand{\clm}[1]{\begin{claim} #1 \end{claim}}
+\newcommand{\ex}[1]{\begin{example} #1 \end{example}}
+\newcommand{\exn}[2]{\begin{example}\emph{(#1)} #2 \end{example}}
+\newcommand{\thm}[1]{\begin{theorem} #1 \end{theorem}}
+\newcommand{\prop}[1]{\begin{proposition} #1 \end{proposition}}
+\newcommand{\propn}[2]{\begin{proposition}[#1] #2 \end{proposition}}
+\newcommand{\pf}[1]{\begin{proof} #1 \end{proof}}
+\newcommand{\cor}[1]{\begin{corollary} #1 \end{corollary}}
+
+
+\newcommand{\asmpdiff}{Assump.~\ref{asmp:diff} (differentiable vector field and reset map)}
+\newcommand{\asmpanalytic}{Assump.~\ref{asmp:analytic} (analytic dynamics)}
+\newcommand{\asmpmass}{Assump.~\ref{asmp:mass} (invertible mass matrix)}
+\newcommand{\asmpcomplete}{Assump.~\ref{asmp:complete} (complete configuration space)}
+\newcommand{\asmpindep}{Assump.~\ref{asmp:indep} (independent constraints)}
+\newcommand{\asmplipschitz}{Assump.~\ref{asmp:lipschitz} (Lipschitz effort)}
+\newcommand{\asmporth}{Assump.~\ref{asmp:orth} (orthogonal constraints)}
+\newcommand{\asmpdecoupled}{Assump.~\ref{asmp:decoupled} (limbs decoupled through body)}
+\newcommand{\asmptrj}{Assump.~\ref{asmp:trj} (admissible trajectories)}
+\newcommand{\remorth}{Remark~\ref{rem:orth} (inertial decoupling)}
+\newcommand{\remmass}{Remark~\ref{rem:mass} (invertible mass matrix)}
+\newcommand{\remindep}{Remark~\ref{rem:indep} (independent constraints)}
+\newcommand{\remcomplete}{Remark~\ref{rem:complete} (complete configuration space)}
+\newcommand{\remlipschitz}{Remark~\ref{rem:lipschitz} (Lipschitz effort)}
+\newcommand{\remseq}{Remark~\ref{rem:seq} (contact mode sequence)}
+\newcommand{\remtrj}{Remark~\ref{rem:trj} (admissible trajectories)}
+\newcommand{\remadact}{Remark~\ref{rem:adact}}
+\newcommand{\defcontact}{Def.~\ref{def:contact} (contact modes)}
+\newcommand{\defipnorm}{Def.~\ref{def:ipnorm} (inner products and norms)}
+\newcommand{\defact}{Def.~\ref{def:act} (constraint activation/deactivation)}
+\newcommand{\defadact}{Def.~\ref{def:adact} (admissible constraint activation/deactivation)}
+\newcommand{\deftrj}{Def.~\ref{def:trj} (admissible trajectory)}
+\newcommand{\defseq}{Def.~\ref{def:seq} (contact mode sequence)}
+\newcommand{\lemflow}{Lem.~\ref{lem:flow} (existence and uniqueness)}
+\newcommand{\lemdiffi}{Lem.~\ref{lem:diffi} (differentiability within contact mode sequences)}
+\newcommand{\lemcont}{Lem.~\ref{lem:cont} (continuity across contact mode sequences)}
+\newcommand{\thmdiff}{Thm.~\ref{thm:diff} (differentiability through intermittent contact)}
+\newcommand{\thmdiffb}{Thm.~\ref{thm:diffb} (piecewise differentiability across contact mode sequences)}
+\newcommand{\thmdiffba}{Thm.~\ref{thm:diffb:a} (piecewise differentiability across contact mode sequences for constraint activation)}
+\newcommand{\thmdiffbd}{Thm.~\ref{thm:diffb:d} (piecewise differentiability across contact mode sequences for constraint deactivation)}
+
