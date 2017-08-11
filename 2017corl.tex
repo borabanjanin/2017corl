@@ -115,9 +115,7 @@ If $\cost$ is two times continuously--differentiable (denoted $\cost\in\C^2$) an
 \D_2^2 \cost(\state,\policy(\state)) > 0,
 }
 then the $\C^1$ Implicit Function Theorem (IFT)~\citep[Thm.~C.40]{Lee2012-mb} can be applied to~\eqref{eq:value} to choose $\policy$ as a $\C^1$ function near $\state$.
-Note that 
-
-IFT specifically required the invertibility tacit in~\eqref{eq:c:suf_}: 
+Note that IFT specifically required the invertibility tacit in~\eqref{eq:c:suf_}: 
 \eqnn{\label{eq:c:stab}
 \text{the linear function}\ \D_2^2 \cost(\state,\policy(\state)):\T_\inp\Inp\into\T_\inp\Inp\ \text{is invertible}.
 }
@@ -138,9 +136,7 @@ whence we obtain derivatives of the optimal value and policy functions in terms 
 We conclude that if the cost function is two times continuously--differentiable ($\cost\in\C^2$) and first--order necessary~\eqref{eq:c:nec_} and second--order sufficient~\eqref{eq:c:suf_},~\eqref{eq:c:stab} conditions for optimality and stability of solutions to~\eqref{eq:min} are satisfied at $\inp = \policy(\state)$, then the optimal policy and value functions are continuously--differentiable at $\state$ ($\policy,\val\in\C^1$) and their derivatives at $\state$ can be computed using~\eqref{eq:c:Dpolicy},~\eqref{eq:c:Dval}.
 
 \prop{\label{prop:c}
-If 
-
-$\cost\in\C^2(\State\times\Inp,\R)$ satisfies~\eqref{eq:c:nec_},~\eqref{eq:c:suf_}, and~\eqref{eq:c:stab} at $(\optstate,\optinp)\in\State\times\Inp$,
+If $\cost\in\C^2(\State\times\Inp,\R)$ satisfies~\eqref{eq:c:nec_},~\eqref{eq:c:suf_}, and~\eqref{eq:c:stab} at $(\optstate,\optinp)\in\State\times\Inp$,
 then 
 there exist neighborhoods
 $\ssState\subset\State$ of $\optstate$ 
@@ -166,7 +162,6 @@ the derivative of $\val$ is given by~\eqref{eq:c:Dval}.
 If $\cost$ is piecewise--differentiable,%
 \footnote{We use the notion of piecewise--differentiability from~\cite[Ch.~4.1]{Scholtes2012-la}: a function is piecewise--differentiable if it is everywhere locally a continuous selection of a finite number of continuously--differentiable functions.}
 denoted $\cost\in\PC^1(\State\times \Inp,\R)$ or simply $\cost\in\PC^1$, then necessarily%
-
 \eqnn{\label{eq:pc:nec}
 \forall \Tinp\in\T_\inp\Inp 
 : 
@@ -200,9 +195,7 @@ and if%
 \text{the piecewise--linear function}\ \D_2^2 \cost(\state,\policy(\state)):\T_\inp\Inp\into\T_\inp\Inp\ \text{is invertible},
 }
 then a $\PC^1$ Implicit Function Theorem can be applied to choose $\policy$ as a $\PC^1$ function near $\state$~\citep[Cor.~3.4]{Robinson1991-xg}.%
-\footnote{This Implicit Function Theorem requires $\D_2\cost$ be \emph{strongly} B--differentiable; the costs considered below are not generally strongly B--differentiable, but they are generally $\PC^r$--equivalent to strongly B--differentiable functions~\cite[Thm.~3.1]{Kuntz1994-qf}, whence~\cite[Cor.~3.4]{Robinson1991-xg} can be applied indirectly.}
-
-Applying the $\PC^1$ Chain Rule~\citep[Thm.~3.1.1]{Scholtes2012-la} to~\eqref{eq:pc:nec} yields~\cf{~\cite[\S~3]{Robinson1991-xg}}
+\footnote{This Implicit Function Theorem requires $\D_2\cost$ be \emph{strongly} B--differentiable; the costs considered below are not generally strongly B--differentiable, but they are generally $\PC^r$--equivalent to strongly B--differentiable functions~\cite[Thm.~3.1]{Kuntz1994-qf}, whence~\cite[Cor.~3.4]{Robinson1991-xg} can be applied indirectly.} Applying the $\PC^1$ Chain Rule~\citep[Thm.~3.1.1]{Scholtes2012-la} to~\eqref{eq:pc:nec} yields~\cf{~\cite[\S~3]{Robinson1991-xg}}
 \eqnn{\label{eq:pc:Dpolicy}
 \forall \Tstate\in\T_\state\State : \D\policy(\state;\Tstate) & = - \D_2^2 \cost(\state,\policy(\state))^{-1}\paren{\D_{12}\cost(\state,\policy(\state);\Tstate)},
 }
@@ -338,7 +331,6 @@ that, with
 $J = \set{j\in\set{1,\dots,n} : a_j(q) = 0}$ 
 denoting the \emph{contact mode},
 the system's dynamics take the form
-
 \begin{subequations}\label{eq:dyn}
 \begin{align}
   M(q)\ddot{q} & = f_J(q,\dot{q},\inp) + c(q,\dot{q})\dot{q} + Da_J(q)^\tr \lambda_J(q,\dot{q},u),\label{eq:dyn:cont}\\
@@ -362,9 +354,7 @@ $\inp\in\Inp$ is an external input,
 %c
 $c : TQ \into \R^{d\times d}$ 
 denotes the \emph{Coriolis matrix} 
-determined
-
-~by $M$,
+determined by $M$,
 %Da
 $Da_J : Q \into \R^{\abs{J}\times d}$ 
 denotes the (Jacobian) derivative of the constraint function $a_J$ with respect to the coordinates,
@@ -628,9 +618,7 @@ Since the dimension of the state space is independent of $n$ and $k$, these piec
 
 It is common practice to use smooth functions to approximate optimal value and policy functions.
 This practice is justified for finite--state Markov Decision Processes (MDP) and smooth control systems whose value functions (optimal or otherwise) are known to be smooth under mild regularity conditions.
-Our results imply that this practice is not generally justified for optimal control of mechanical systems subject to unilateral constraints since the value functions are generally discontinuous or only piecewise--differentiable.
-
-Future work could investigate the use of nonsmooth function approximators in this setting. 
+Our results imply that this practice is not generally justified for optimal control of mechanical systems subject to unilateral constraints since the value functions are generally discontinuous or only piecewise--differentiable. Future work could investigate the use of nonsmooth function approximators in this setting. 
 
 Suppose a (possibly non--optimal) policy 
 $\policy:\State\into\Inp$ 
